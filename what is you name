@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class app {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("qual o seu nome");
+        String nome = scanner.nextLine();
+        System.out.println("hellow "+ nome);
+        
+        scanner.close();
+
+
+         
+    }
+}
