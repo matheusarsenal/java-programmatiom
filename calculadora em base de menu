@@ -1,0 +1,78 @@
+import java.util.Scanner;
+import java.lang.math;
+
+public class app {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("digite um numero");
+        int numero = scanner.nextInt();
+
+
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.println("digite outro numero");
+        int numero2 = scanner.nextInt();
+
+        int resultado1 = numero + numero2;
+
+        System.out.println(resultado1);
+
+        Scanner scanner3 = new Scanner(System.in);
+        System.out.println("digite um numero para subtração");
+        int numero3 = scanner.nextInt();
+
+        Scanner scanner4 = new Scanner(System.in);
+        System.out.println("digite outro numero para subtração");
+        int numero4 = scanner.nextInt();
+
+        int resultado2 = numero3 - numero4;
+
+        System.out.println(resultado2);
+
+        Scanner scanner5 = new Scanner(System.in);
+        System.out.println("digite um numero agora para multiplicação");
+        int numero5 = scanner.nextInt();
+
+        Scanner scanner6 = new Scanner(System.in);
+        System.out.println("digite outro numero para multiplicar");
+        int numero6 = scanner.nextInt();
+
+        int resultado_multiplicação = numero5 * numero6;
+
+        System.out.println(resultado_multiplicação);
+
+
+        Scanner scanner7 = new Scanner(System.in);
+        System.out.println("digite agora um numero para fazer uma divisão");
+        float numero7 = new scanner.nextFloat();
+
+        Scanner scanner8 = new Scanner(System.in);
+        System.out.println("digite outro numero para divisão");
+        float numero8 = new scanner.nextFloat();
+
+        float resultado_divisão = numero7 / numero8;
+
+        System.out.println(resultado_divisão);
+
+        Scanner scammer9 = new Scanner(System.in);
+        System.out.println("digite um numero para a potenciação");
+        double numero9 = scanner.nextDouble();
+
+        Scanner scanner10 = new Scanner(System.in);
+        System.out.println("digite o segundo numero para a potenciação");
+        double numero10 = scanner.nextDouble();
+
+        double potenciação = math.pow(numero1,numero2);
+
+        System.out.println(potenciação);
+
+
+
+
+    
+
+
+
+         
+    }
+}
