@@ -1,0 +1,71 @@
+import java.util.Scanner;
+public class switch {
+    public static void main(String[] args){
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("digite um numero");
+
+    int numero = scanner.nextInt();
+
+
+
+
+        switch(numero){
+
+
+            case 1;
+                System.out.println("cadastrar produto");
+                Scanner scanner2 = new Scanner(System.in);
+                System.out.println("digite o nome do produto");
+                string nome_produto = scanner.nextString();
+                System.out.println(nome_produto);
+                Scanner scanner3 = new Scanner(System.in);
+                System.out.println("digite o nome do segundo produto");
+                string nome_produto2 = scanner.String();
+                System.out.println(nome_produto2);
+                Scanner scanner4 = new scanner(System.in);
+                System.out.println("digite o nome do terceiro produto");
+                string nome_produto3 = scanner4.nextString();
+
+
+                break;
+            }
+            case 2;
+                System.out.prinln("excluir produto");
+                Scanner scanner5 = new Scanner(System.in);
+                System.out.println("digite um produto a ser removido");
+
+
+
+
+    
+            
+            case 3;
+                System.out.println("alterar produto");
+
+
+
+    
+    
+    
+    
+
+            case 4;
+                System.out.println("localizar o produto");
+
+                break;
+
+            defalt;    
+    
+
+    
+    
+        }
+
+    }
+
+    
+
+
+    
+}
