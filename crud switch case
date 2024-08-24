@@ -28,6 +28,7 @@ public class switch {
                 string nome_produto3 = scanner4.nextString();
 
 
+
                 break;
             }
             case 2;
